@@ -3,7 +3,7 @@
 
 ## 🎯 Project Summary
 
-This Power BI project presents an in-depth analysis of employee attrition using the publicly available IBM HR Analytics Employee Attrition & Performance dataset from Kaggle [Kaggle Plant [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset). It focuses on uncovering key factors influencing employee turnover and providing actionable insights for HR decision-makers. The dashboard highlights attrition trends by department, role, gender, tenure and job satisfaction.
+This Power BI project presents an in-depth analysis of employee attrition using the publicly available IBM HR Analytics Employee Attrition & Performance dataset from Kaggle [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset). It focuses on uncovering key factors influencing employee turnover and providing actionable insights for HR decision-makers. The dashboard highlights attrition trends by department, role, gender, tenure and job satisfaction.
 
 
 ## 🔧 Tools & Technologies
@@ -16,10 +16,12 @@ DAX – For calculated metrics like attrition rate and satisfaction scores
 ## 🚀 Workflow Overview
 
 📂 Data Preparation
+
 Created new calculated fields (e.g., Avg Tenure, Attrition Count)
 Encoded categorical variables for slicers
 
 📊 Dashboard Design
+
 KPI Cards: Overall Attrition Rate, Total Employees, Avg. Job Satisfaction
 Bar Chart: Attrition Rate by Department
 Matrix: Attrition by Job Role and Tenure
@@ -28,6 +30,7 @@ Line Chart: Attrition by Years at Company
 Histogram: Age Distribution (Attrition vs Non-Attrition)
 
 📐 DAX Calculations
+
 Avg Job Satisfaction = AVERAGE('HR-Employee-Attrition'[JobSatisfaction])
 Avg Tenure = AVERAGE('HR-Employee-Attrition'[YearsAtCompany])
 Employee Count = COUNTROWS('HR-Employee-Attrition')
