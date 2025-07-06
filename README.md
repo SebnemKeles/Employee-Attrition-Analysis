@@ -73,7 +73,7 @@ Gender-wise attrition is nearly balanced with slight male dominance
 
 ## 📷 Dashboard Preview
 
-[🔗 Click here to view the full Power BI dashboard preview (PDF)][dashboard/dashboard_preview.pdf](https://github.com/SebnemKeles/Employee-Attrition-Analysis/blob/main/HR%20Employee%20Attrition.pdf)
+[🔗 Click here to view the full Power BI dashboard preview (PDF)][(dashboard/dashboard_preview.pdf](https://github.com/SebnemKeles/Employee-Attrition-Analysis/blob/main/HR%20Employee%20Attrition.pdf)]
 
 
 ## 📈 Project Metrics
