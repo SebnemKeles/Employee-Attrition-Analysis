@@ -32,24 +32,30 @@ Histogram: Age Distribution (Attrition vs Non-Attrition)
 📐 DAX Calculations
 
 Avg Job Satisfaction = AVERAGE('HR-Employee-Attrition'[JobSatisfaction])
+
 Avg Tenure = AVERAGE('HR-Employee-Attrition'[YearsAtCompany])
+
 Employee Count = COUNTROWS('HR-Employee-Attrition')
+
 Attrition % by Dept = 
 DIVIDE(
     CALCULATE(COUNTROWS('HR-Employee-Attrition'), 'HR-Employee-Attrition'[Attrition] = "Yes"),
     CALCULATE(COUNTROWS('HR-Employee-Attrition'))
 )
+
 Attrition Count = 
 CALCULATE(
     COUNTROWS('HR-Employee-Attrition'),
     'HR-Employee-Attrition'[Attrition] = "Yes"
 )
+
 Overall Attrition Rate = 
 DIVIDE(
     COUNTROWS(FILTER('HR-Employee-Attrition', 'HR-Employee-Attrition'[Attrition] = "Yes")),
     COUNTROWS('HR-Employee-Attrition'),
     0
 )
+
 Total Attrition Count = 
 CALCULATE(
     COUNTROWS('HR-Employee-Attrition'),
